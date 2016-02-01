@@ -48,17 +48,18 @@ body {
   margin: 10 10 10 10;
   padding-left: auto;
   padding-right: auto;
-
-  background-color: #DAF3FF;
 }
 
 .section div {
   width: 90%;
   margin: auto;
+  background-color: #DAF3FF;
+  border-radius: 20px;
 }
 
 .section h2 {
   background-color: #B28E61;
+  text-align: center;
 }
 
 .todoItem {
