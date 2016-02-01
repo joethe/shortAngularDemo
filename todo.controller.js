@@ -1,7 +1,7 @@
 angular.module("main").controller("todoController", function() {
   var todoList = this;
   
-  var todoList.todos = [
+  todoList.todos = [
     {item:"attend 3601", done:true},
     {item:"learn angular", done:false},
     {item:"make websites", done:false},
