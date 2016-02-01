@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="main">
 <head>
   <title> A short angular demo for 3601 </title>
   
@@ -7,6 +7,8 @@
   <link rel="stylesheet" type="text/css" href="todo.css"/>
   
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.2/angular.min.js"></script>
+  <script src="angularModules.js"></script>
+  <script src="todo.controller.js"></script>
 </head>
 
 <body>
@@ -28,22 +30,14 @@
     </div>
   </div>
 
-  <div class="section">
+  <div class="section" ng-controller="todoController">
     <div>
       <h2> TODO list </h2>
       <ul>
-       <li class="todoItem">
-         <input type="checkbox">
-        <span >Learn Angular</span>
-      </li>
-      <li class="todoItem">
-        <input type="checkbox">
-        <span>Make this checklist work</span>
-      </li>
-      <li class="todoItem">
-        <input type="checkbox">
-       <span>Commit and push</span>
-      </li>
+        <li class="todoItem" ng-repeat="todo in todoList.todos">
+         <input type="checkbox" ng-model="todo.done">
+         <span>{{todo.item}}</span>
+        </li>
     </ul>
   
     <form>
