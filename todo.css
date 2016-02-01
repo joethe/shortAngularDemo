@@ -27,6 +27,20 @@ body {
   padding-top: 10px;
 }
 
+#footer {
+  background-color: #B28E61;
+  border-top: solid 5px #BEE9FF;
+  text-align: center;
+  
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  
+  padding-top: 10px;
+}
+
 .todoItem {
   list-style-type: none;
 }
