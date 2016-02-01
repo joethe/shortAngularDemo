@@ -52,7 +52,12 @@ body {
   background-color: #DAF3FF;
 }
 
-.section h1 {
+.section div {
+  width: 90%;
+  margin: auto;
+}
+
+.section h2 {
   background-color: #B28E61;
 }
 
