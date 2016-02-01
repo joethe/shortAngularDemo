@@ -30,11 +30,11 @@
     </div>
   </div>
 
-  <div class="section" ng-controller="todoController">
+  <div class="section" ng-controller="todoController as instanceOfController">
     <div>
       <h2> TODO list </h2>
       <ul>
-        <li class="todoItem" ng-repeat="todo in todoList.todos">
+        <li class="todoItem" ng-repeat="todo in instanceOfController.todos">
          <input type="checkbox" ng-model="todo.done">
          <span>{{todo.item}}</span>
         </li>
