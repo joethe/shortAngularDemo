@@ -51,6 +51,7 @@ body {
 .section div {
   width: 90%;
   margin: auto;
+  margin-top: 20px;
   background-color: #DAF3FF;
   border-radius: 20px;
   padding-bottom: 20px;
