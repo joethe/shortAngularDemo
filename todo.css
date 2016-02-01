@@ -32,7 +32,7 @@ body {
   border-top: solid 5px #BEE9FF;
   text-align: center;
   
-  position: relative;
+  position: absolute;
   bottom: 0px;
   width: 100%;
   margin-top: 20px;
