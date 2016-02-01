@@ -46,9 +46,10 @@ body {
   height: 100%;
   width: 50%;
   margin: 10 10 10 10;
-  padding: 10 10 10 10;
+  padding-left: auto;
+  padding-right: auto;
 
-  background-color: #BEE9FF;
+  background-color: #DAF3FF;
 }
 
 .section h1 {
