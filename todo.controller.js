@@ -10,6 +10,7 @@ angular.module("main").controller("todoController", function() {
   ];
   
   todoList.addTodo = function() {
+    console.log("adding an item!");
     todoList.todos.push({text: todoList.todoText, done: false});  // put the new item in the list
     todoList.todoText = ''; // resetting the input field
   };
