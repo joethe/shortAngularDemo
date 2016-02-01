@@ -41,6 +41,18 @@ body {
   padding-top: 10px;
 }
 
+.section {
+  height: 100%;
+  margin: 10 10 10 10;
+  padding: 10 10 10 10;
+
+  background-color: #BEE9FF;
+}
+
+.section h1 {
+  background-color: #B28E61;
+}
+
 .todoItem {
   list-style-type: none;
 }
